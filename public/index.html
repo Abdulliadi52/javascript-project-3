@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+    <link rel="stylesheet" href="cs/output.css" />
+  </head>
+  <body
+    class="flex relative flex-col items-center justify-center h-screen w-screen bg-color1"
+  >
+    <h2 class="text-7xl font-semibold mb-8">Counter</h2>
+    <span class="text-6xl font-semibold mb-8" id="text">0</span>
+    <div class="flex gap-6">
+      <button
+        class="uppercase text-sm font-semibold border-2 border-black px-3 py-1 rounded-md tracking-wider hover:bg-black hover:text-white transition ease-in-out duration-500 decrease"
+        id="btn"
+      >
+        decrease
+      </button>
+      <button
+        class="uppercase text-sm font-semibold border-2 border-black px-3 py-1 rounded-md tracking-wider hover:bg-black hover:text-white transition ease-in-out duration-500 reset"
+        id="btn"
+      >
+        Reset
+      </button>
+      <button
+        class="uppercase text-sm font-semibold border-2 border-black px-3 py-1 rounded-md tracking-wider hover:bg-black hover:text-white transition ease-in-out duration-500 increase"
+        id="btn"
+      >
+        increase
+      </button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
